@@ -53,10 +53,8 @@ This project leverages **image processing + CNNs** to automatically classify tom
 
 Here are some sample outputs from the trained model:  
 
-<img src="images/prediction1.png" width="350">  
-<img src="images/prediction2.png" width="350">  
-<img src="images/accuracy_curve.png" width="500">  
-
+<img src="prediction1.png" width="350">  
+<img src="prediction2.png" width="350">  
 
 ---
 
