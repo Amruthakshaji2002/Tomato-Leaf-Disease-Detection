@@ -1,0 +1,70 @@
+# 🍅 Tomato Leaf Disease Detection  
+
+A Convolutional Neural Network (CNN)-based approach for detecting tomato leaf diseases such as *Bacterial Spot* and *Early Blight*.  
+This project applies deep learning techniques to support sustainable agriculture by enabling early and accurate disease detection.  
+
+---
+
+## 📌 Project Overview  
+Tomatoes are one of the most widely cultivated crops but are highly vulnerable to diseases, leading to major yield losses.  
+Traditional inspection methods are manual, time-consuming, and error-prone.  
+This project leverages **image processing + CNNs** to automatically classify tomato leaf diseases, providing a scalable and cost-effective solution.  
+
+---
+
+## 🎯 Objectives  
+- Develop a CNN model to identify and classify tomato leaf diseases.  
+- Compare performance across multiple training epochs (5, 10, 15).  
+- Provide an automated and efficient detection system for farmers.  
+
+---
+
+## 📊 Dataset  
+- Source: [Kaggle – Tomato Leaf Dataset](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf)  
+- Size: **3127 images**  
+- Classes:  
+  - 🍂 Tomato_Bacterial_spot  
+  - 🍂 Tomato_Early_blight  
+- Preprocessing: Resized to **256×256 pixels**; train/validation split  
+
+---
+
+## 🧠 Methodology  
+1. Data preprocessing  
+2. CNN model with convolution, pooling & fully connected layers  
+3. Training with varying epochs  
+4. Evaluation using accuracy & loss  
+
+---
+
+## 📈 Results  
+
+| Epochs | Train Accuracy | Train Loss | Validation Accuracy | Validation Loss |
+|--------|----------------|------------|---------------------|-----------------|
+| 5      | 0.8710         | 0.3302     | 0.5000              | 7.9915          |
+| 10     | 0.9492         | 0.2754     | 0.5000              | 4.0179          |
+| 15     | 0.9903         | 0.0256     | 0.9200              | 0.2618          |
+
+✅ Model achieved **92% validation accuracy** at 15 epochs.  
+
+---
+
+## 📷 Sample Predictions  
+
+Here are some sample outputs from the trained model:  
+
+<img src="images/prediction1.png" width="350">  
+<img src="images/prediction2.png" width="350">  
+<img src="images/accuracy_curve.png" width="500">  
+
+*(Place these images inside an `images/` folder in your repo)*  
+
+---
+
+## 🔮 Future Scope  
+- Real-time detection using cameras in farms.  
+- Transfer learning with pretrained models for higher accuracy.  
+- Expanding dataset to include more crop diseases.  
+
+---
+  
