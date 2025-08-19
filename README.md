@@ -53,7 +53,6 @@ This project leverages **image processing + CNNs** to automatically classify tom
 
 Here are some sample outputs from the trained model:  
 <img src="https://raw.githubusercontent.com/Amruthakshaji2002/Tomato-Leaf-Disease-Detection/main/prediction1.png" width="350">
-<img src="https://raw.githubusercontent.com/Amruthakshaji2002/Tomato-Leaf-Disease-Detection/main/prediction2.png" width="350">
 
 
 ---
